@@ -6,9 +6,9 @@ The main repo from Orbmu2k hasn't been updated in years & since then their have 
 - Improved usability of the search/filter field (automatically applies as you type, can be cleared using the "escape" key)
 - Bug fixes
 - Improved error messaging
-- Improved performance (fast load times)
+- Faster load times
 
-## Original README body
+## How To Use
 
 ![](/nspector/Images/n1-016.png) **NVIDIA Profile Inspector**
 
