@@ -36,7 +36,6 @@ namespace nspector.Common.Meta
             if ((settingId & 0xFFFFF000) == 0x10c7d000)
                 return null;
 
-                
             var values = new NVDRS_SETTING_VALUES
             {
                 version = nvw.NVDRS_SETTING_VALUES_VER
