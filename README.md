@@ -1,4 +1,4 @@
-## Why this fork over others/the original?
+## Why this fork over other versions?
 The main repo from Orbmu2k hasn't been updated in years & since then their have been many forks adding new content to the program, this fork combines all those into one & also maintains future support for new features, such as adding support for DLSS related toggles.
 
 ## New Features
