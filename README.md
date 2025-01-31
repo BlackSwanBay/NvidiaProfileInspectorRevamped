@@ -12,6 +12,8 @@ The main repo from Orbmu2k hasn't been updated in years & since then their have 
 
 * [Discord Server](https://discord.gg/dc74er8TJF)
 
+* [Link Tree](https://linktr.ee/Hybred)
+
 ## How To Use
 
 ![](/nspector/Images/n1-016.png) **NVIDIA Profile Inspector**
