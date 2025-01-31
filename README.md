@@ -8,6 +8,10 @@ The main repo from Orbmu2k hasn't been updated in years & since then their have 
 - Improved error messaging
 - Faster load times
 
+## Socials
+
+* [Discord Server](https://discord.gg/dc74er8TJF)
+
 ## How To Use
 
 ![](/nspector/Images/n1-016.png) **NVIDIA Profile Inspector**
