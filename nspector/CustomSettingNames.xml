@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  |============= DESCRIPTION =============|
+    This file defines additional settings exposed via nvidiaProfileInspector beyond what is available by default.
+    When a new driver is released that contains new unexposed settings, they should typically be added here
+
+  |===============================================================|
+  |======== !!!IMPORTANT!!! DETAILS ABOUT HIDDEN SETTINGS ========|
+  |===============================================================|
+    There are two ways that Settings may be hidden:
+    
+    1) Using the <Hidden /> XML tag
+        - These are typically hidden for good reason. It is not recommended to make them visible unless you
+          *really* know what you're doing
+    
+    2) The XML block has been commented out
+        - These are typically hidden by the author of this file because they are uncommonly used and only needed in
+          specific use-cases (like the advanced Stereo Profile setting at the top)
+        - **IMPORTANT NOTE** - These sections may include _actual_ code comments that need to be preserved. Be careful
+          when uncommenting sections of this file to ensure that you aren't uncommenting raw text, but also aren't missing
+          part of the setting that needs to be uncommented after a code comment.
+    -->
 
 <CustomSettingNames>
   <Settings>
@@ -9270,6 +9291,10 @@
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
   <SettingValues>
+		  <CustomSettingValue>
+			<UserfriendlyName>N/A</UserfriendlyName>
+			<HexValue>0x00000000</HexValue>
+		  </CustomSettingValue>
 		  <CustomSettingValue>
 			<UserfriendlyName>Preset A (v3.5+)</UserfriendlyName>
 			<HexValue>0x00000001</HexValue>
