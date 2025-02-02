@@ -9136,7 +9136,7 @@
     </CustomSetting>
 
 	<CustomSetting>
-		<UserfriendlyName>DLSS-SR Force DLAA</UserfriendlyName>
+		<UserfriendlyName>SR Force DLAA</UserfriendlyName>
 		<HexSettingID>0x10E41DF4</HexSettingID>
 		<GroupName>0.2 - DLSS Overrides</GroupName>
 		<MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9146,7 +9146,7 @@
 			<HexValue>0x00000000</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>On - All levels will act as DLAA</UserfriendlyName>
+			<UserfriendlyName>On (All levels act as DLAA)</UserfriendlyName>
 			<HexValue>0x00000001</HexValue>
 		  </CustomSettingValue>
 		</SettingValues>
@@ -9154,7 +9154,7 @@
 	  </CustomSetting>
 
 	  <CustomSetting>
-		<UserfriendlyName>DLSS-SR Preset</UserfriendlyName>
+		<UserfriendlyName>SR Preset</UserfriendlyName>
 		<HexSettingID>0x10E41DF3</HexSettingID>
 		<GroupName>0.2 - DLSS Overrides</GroupName>
 		<MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9164,19 +9164,19 @@
 			<HexValue>0x00000000</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset A (v3.1 - v3.7)</UserfriendlyName>
+			<UserfriendlyName>Preset A (v3.1+)</UserfriendlyName>
 			<HexValue>0x00000001</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset B (v3.1 - v3.7)</UserfriendlyName>
+			<UserfriendlyName>Preset B (v3.1+)</UserfriendlyName>
 			<HexValue>0x00000002</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset C (v3.1 - v3.7)</UserfriendlyName>
+			<UserfriendlyName>Preset C (v3.1+)</UserfriendlyName>
 			<HexValue>0x00000003</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset D (v3.1 - v3.7)</UserfriendlyName>
+			<UserfriendlyName>Preset D (v3.1+)</UserfriendlyName>
 			<HexValue>0x00000004</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
@@ -9232,7 +9232,7 @@
 	  </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>DLSS-SR Override</UserfriendlyName>
+  <UserfriendlyName>SR Override</UserfriendlyName>
   <HexSettingID>0x10E41E01</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9250,7 +9250,7 @@
 </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>DLSS-RR Override</UserfriendlyName>
+  <UserfriendlyName>RR Override</UserfriendlyName>
   <HexSettingID>0x10E41E02</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9268,7 +9268,7 @@
 </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>DLSS-FG Override</UserfriendlyName>
+  <UserfriendlyName>FG Override</UserfriendlyName>
   <HexSettingID>0x10E41E03</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9286,7 +9286,7 @@
 </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>DLSS-RR Preset</UserfriendlyName>
+  <UserfriendlyName>RR Preset</UserfriendlyName>
   <HexSettingID>0x10E41DF7</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9324,11 +9324,11 @@
 			<HexValue>0x00000007</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset H (v310+)</UserfriendlyName>
+			<UserfriendlyName>Preset H (v310+ - Unused)</UserfriendlyName>
 			<HexValue>0x00000008</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset I (v310+)</UserfriendlyName>
+			<UserfriendlyName>Preset I (v310+ - Unused)</UserfriendlyName>
 			<HexValue>0x00000009</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
@@ -9340,19 +9340,19 @@
 			<HexValue>0x0000000B</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset L (v310+)</UserfriendlyName>
+			<UserfriendlyName>Preset L (v310+ - Unused)</UserfriendlyName>
 			<HexValue>0x0000000C</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset M (v310+)</UserfriendlyName>
+			<UserfriendlyName>Preset M (v310+ - Unused)</UserfriendlyName>
 			<HexValue>0x0000000D</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset N (v310+)</UserfriendlyName>
+			<UserfriendlyName>Preset N (v310+ - Unused)</UserfriendlyName>
 			<HexValue>0x0000000E</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
-			<UserfriendlyName>Preset O (v310+)</UserfriendlyName>
+			<UserfriendlyName>Preset O (v310+ - Unused)</UserfriendlyName>
 			<HexValue>0x0000000F</HexValue>
 		  </CustomSettingValue>
 		  <CustomSettingValue>
@@ -9364,7 +9364,7 @@
 	  </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>DLSS-SR Perf to Ultra Perf</UserfriendlyName>
+  <UserfriendlyName>SR Force Ultra Perf</UserfriendlyName>
   <HexSettingID>0x10AFB76C</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9374,7 +9374,7 @@
       <HexValue>0x00000000</HexValue>
     </CustomSettingValue>
     <CustomSettingValue>
-      <UserfriendlyName>On - Force Ultra-Performance</UserfriendlyName>
+      <UserfriendlyName>On (Replaces Performance)</UserfriendlyName>
       <HexValue>0x00000001</HexValue>
     </CustomSettingValue>
   </SettingValues>
@@ -9382,7 +9382,7 @@
 </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>DLSS-FG Frame Count</UserfriendlyName>
+  <UserfriendlyName>FG Multiplier</UserfriendlyName>
   <HexSettingID>0x104D6667</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9392,11 +9392,11 @@
       <HexValue>0x00000000</HexValue>
     </CustomSettingValue>
     <CustomSettingValue>
-      <UserfriendlyName>3x</UserfriendlyName>
+      <UserfriendlyName>3x (50 Series+ Only)</UserfriendlyName>
       <HexValue>0x00000001</HexValue>
     </CustomSettingValue>
     <CustomSettingValue>
-      <UserfriendlyName>4x</UserfriendlyName>
+      <UserfriendlyName>4x (50 Series+ Only)</UserfriendlyName>
       <HexValue>0x0000000F</HexValue>
     </CustomSettingValue>
   </SettingValues>
