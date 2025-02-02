@@ -8,11 +8,13 @@ The main repo from Orbmu2k hasn't been updated in years & since then their have 
 - Improved error messaging
 - Faster load times
 
-## Socials
+## Links
 
 * [Discord Server](https://discord.gg/dc74er8TJF)
 
 * [Link Tree](https://linktr.ee/Hybred)
+
+* [DLSSEnhancer](https://www.nexusmods.com/site/mods/998)
 
 ## How To Use
 
