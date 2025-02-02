@@ -5050,7 +5050,7 @@
     </CustomSetting>
 
     <CustomSetting>
-      <UserfriendlyName>Antialiasing - Transparency Supersampling</UserfriendlyName>
+      <UserfriendlyName>Transparency Supersampling</UserfriendlyName>
       <HexSettingID>0x10D48A85</HexSettingID>
       <GroupName>0.3 - DLSS Accessories</GroupName>
       <SettingValues>
@@ -5095,7 +5095,7 @@
     </CustomSetting>
 
     <CustomSetting>
-      <UserfriendlyName>Nvidia Image Sharpening 2.0</UserfriendlyName>
+      <UserfriendlyName>NVSharpening Mode</UserfriendlyName>
       <HexSettingID>0x00ABAC21</HexSettingID>
       <MinRequiredDriverVersion>300.00</MinRequiredDriverVersion>
       <GroupName>0.3 - DLSS Accessories</GroupName>
@@ -5113,7 +5113,7 @@
     </CustomSetting>
 
     <CustomSetting>
-      <UserfriendlyName>Nvidia Image Sharpening Value</UserfriendlyName>
+      <UserfriendlyName>NVSharpening Value</UserfriendlyName>
       <HexSettingID>0x00ABAB21</HexSettingID>
       <MinRequiredDriverVersion>300</MinRequiredDriverVersion>
       <GroupName>0.3 - DLSS Accessories</GroupName>
@@ -6513,7 +6513,7 @@
     </CustomSetting>
 
     <CustomSetting>
-      <UserfriendlyName>Texture Filtering - LOD Bias (DX)</UserfriendlyName>
+      <UserfriendlyName>LOD Bias (DirectX)</UserfriendlyName>
       <HexSettingID>0x00738E8F</HexSettingID>
       <GroupName>0.3 - DLSS Accessories</GroupName>
       <SettingValues>
@@ -6718,7 +6718,7 @@
     </CustomSetting>
 
     <CustomSetting>
-      <UserfriendlyName>Texture Filtering - LOD Bias (OGL)</UserfriendlyName>
+      <UserfriendlyName>LOD Bias (OpenGL)</UserfriendlyName>
       <HexSettingID>0x20403F79</HexSettingID>
       <GroupName>4 - Texture Filtering</GroupName>
       <SettingValues>
@@ -7397,6 +7397,48 @@
         <CustomSettingValue>
           <UserfriendlyName>Default</UserfriendlyName>
           <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>Variable refresh Rate</UserfriendlyName>
+      <HexSettingID>0x10A879CE</HexSettingID>
+      <GroupName>2 - Sync and Refresh</GroupName>
+      <OverrideDefault>0x00000001</OverrideDefault>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Disabled</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enabled</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Unsupported</UserfriendlyName>
+          <HexValue>0x9F95128E</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>Vulkan/OpenGL present method</UserfriendlyName>
+      <HexSettingID>0x20D690F8</HexSettingID>
+      <GroupName>2 - Sync and Refresh</GroupName>
+      <OverrideDefault>0x00000002</OverrideDefault>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Native</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Preferred layered on DXGI Swapchain</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Auto</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
         </CustomSettingValue>
       </SettingValues>
     </CustomSetting>
@@ -9557,6 +9599,7 @@
   <UserfriendlyName>FG Multiplier</UserfriendlyName>
   <HexSettingID>0x104D6667</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
+  <OverrideDefault>0x00000000</OverrideDefault>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
   <SettingValues>
     <CustomSettingValue>
