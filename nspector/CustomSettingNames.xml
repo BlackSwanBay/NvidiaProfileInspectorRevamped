@@ -9232,7 +9232,7 @@
 	  </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>SR Override</UserfriendlyName>
+  <UserfriendlyName>SR Latest DLL</UserfriendlyName>
   <HexSettingID>0x10E41E01</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9250,7 +9250,7 @@
 </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>RR Override</UserfriendlyName>
+  <UserfriendlyName>RR Latest DLL</UserfriendlyName>
   <HexSettingID>0x10E41E02</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9268,7 +9268,7 @@
 </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>FG Override</UserfriendlyName>
+  <UserfriendlyName>FG Latest DLL</UserfriendlyName>
   <HexSettingID>0x10E41E03</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
@@ -9376,6 +9376,82 @@
     <CustomSettingValue>
       <UserfriendlyName>On (Replaces Performance)</UserfriendlyName>
       <HexValue>0x00000001</HexValue>
+    </CustomSettingValue>
+  </SettingValues>
+  <SettingMasks/>
+</CustomSetting>
+
+<CustomSetting>
+  <UserfriendlyName>SR Scale Factor</UserfriendlyName>
+  <HexSettingID>0x10AFB768</HexSettingID>
+  <GroupName>0.2 - DLSS Overrides</GroupName>
+  <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+  <SettingValues>
+    <CustomSettingValue>
+      <UserfriendlyName>50% Performance</UserfriendlyName>
+      <HexValue>0x00000000</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>58% Balanced</UserfriendlyName>
+      <HexValue>0x00000001</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>67% Quality</UserfriendlyName>
+      <HexValue>0x00000002</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>Default</UserfriendlyName>
+      <HexValue>0x00000003</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>100% DLAA</UserfriendlyName>
+      <HexValue>0x00000004</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>33% Ultra Performance</UserfriendlyName>
+      <HexValue>0x00000005</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>50% Performance</UserfriendlyName>
+      <HexValue>0x00000006</HexValue>
+    </CustomSettingValue>
+  </SettingValues>
+  <SettingMasks/>
+</CustomSetting>
+
+<CustomSetting>
+  <UserfriendlyName>RR Scale Factor</UserfriendlyName>
+  <HexSettingID>0x10BD9423</HexSettingID>
+  <GroupName>0.2 - DLSS Overrides</GroupName>
+  <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+  <SettingValues>
+    <CustomSettingValue>
+      <UserfriendlyName>50% Performance</UserfriendlyName>
+      <HexValue>0x00000000</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>58% Balanced</UserfriendlyName>
+      <HexValue>0x00000001</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>67% Quality</UserfriendlyName>
+      <HexValue>0x00000002</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>Default</UserfriendlyName>
+      <HexValue>0x00000003</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>100% DLAA</UserfriendlyName>
+      <HexValue>0x00000004</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>33% Ultra Performance</UserfriendlyName>
+      <HexValue>0x00000005</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>50% Performance</UserfriendlyName>
+      <HexValue>0x00000006</HexValue>
     </CustomSettingValue>
   </SettingValues>
   <SettingMasks/>
