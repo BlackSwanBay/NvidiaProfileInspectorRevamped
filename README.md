@@ -28,8 +28,8 @@ For more information how to use this tool, you can find some very good wikis her
 
 **Cropped**
 
-![UntitledV2](https://github.com/user-attachments/assets/0e2ed463-aba1-46fe-9f78-96583adb7e21)
+![UntitledV2](https://github.com/user-attachments/assets/89168980-2af4-46f8-9a0f-b609e11c7b91)
 
 **Uncropped**
 
-![Untitled](https://github.com/user-attachments/assets/32533553-2b8d-4928-a206-acc3323780e6)
+![Untitled](https://github.com/user-attachments/assets/e891eb82-38d2-4d18-ad44-b2f250237ec4)
