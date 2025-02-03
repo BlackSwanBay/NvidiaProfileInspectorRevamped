@@ -6872,7 +6872,7 @@
           <HexValue>0xFFFFFFDF</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>-2.000</UserfriendlyName>
+          <UserfriendlyName>-2.000 - DLSS Ultra Performance</UserfriendlyName>
           <HexValue>0xFFFFFFE0</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
@@ -6888,7 +6888,7 @@
           <HexValue>0xFFFFFFE3</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>-1.750</UserfriendlyName>
+          <UserfriendlyName>-1.750 - DLSS Extra Performance</UserfriendlyName>
           <HexValue>0xFFFFFFE4</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
@@ -6904,7 +6904,7 @@
           <HexValue>0xFFFFFFE7</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>-1.500</UserfriendlyName>
+          <UserfriendlyName>-1.500 - DLSS Performance</UserfriendlyName>
           <HexValue>0xFFFFFFE8</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
@@ -6936,7 +6936,7 @@
           <HexValue>0xFFFFFFEF</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>-1.000</UserfriendlyName>
+          <UserfriendlyName>-1.000 - DLSS Balanced</UserfriendlyName>
           <HexValue>0xFFFFFFF0</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
@@ -6952,7 +6952,7 @@
           <HexValue>0xFFFFFFF3</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>-0.750</UserfriendlyName>
+          <UserfriendlyName>-0.750 - DLSS Balanced+</UserfriendlyName>
           <HexValue>0xFFFFFFF4</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
@@ -6968,7 +6968,7 @@
           <HexValue>0xFFFFFFF7</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>-0.500</UserfriendlyName>
+          <UserfriendlyName>-0.500 - DLSS Quality</UserfriendlyName>
           <HexValue>0xFFFFFFF8</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
@@ -6984,7 +6984,7 @@
           <HexValue>0xFFFFFFFB</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>-0.250</UserfriendlyName>
+          <UserfriendlyName>-0.250 - DLSS Ultra Quality</UserfriendlyName>
           <HexValue>0xFFFFFFFC</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
@@ -6992,7 +6992,7 @@
           <HexValue>0xFFFFFFFD</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>-0.125</UserfriendlyName>
+          <UserfriendlyName>-0.125 - DLSS Ultra Quality+</UserfriendlyName>
           <HexValue>0xFFFFFFFE</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
@@ -7000,7 +7000,7 @@
           <HexValue>0xFFFFFFFF</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>+0.000</UserfriendlyName>
+          <UserfriendlyName>+0.000 - Default/DLAA</UserfriendlyName>
           <HexValue>0x00000000</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
