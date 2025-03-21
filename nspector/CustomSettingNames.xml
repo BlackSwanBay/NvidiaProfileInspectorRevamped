@@ -9693,7 +9693,11 @@
       <HexValue>0x00000055</HexValue>
     </CustomSettingValue>
     <CustomSettingValue>
-      <UserfriendlyName>99% DLAA</UserfriendlyName>
+      <UserfriendlyName>88% DLAA (No Perf Impact)</UserfriendlyName>
+      <HexValue>0x00000058</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>99% DLAA (Incase 100% Breaks)</UserfriendlyName>
       <HexValue>0x00000063</HexValue>
     </CustomSettingValue>
     <CustomSettingValue>
@@ -9791,6 +9795,14 @@
     <CustomSettingValue>
       <UserfriendlyName>85% Ultra Quality+</UserfriendlyName>
       <HexValue>0x00000055</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>88% DLAA (No Perf Impact)</UserfriendlyName>
+      <HexValue>0x00000058</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>99% DLAA (Incase 100% Breaks)</UserfriendlyName>
+      <HexValue>0x00000063</HexValue>
     </CustomSettingValue>
     <CustomSettingValue>
       <UserfriendlyName>99% DLAA</UserfriendlyName>
