@@ -2,7 +2,7 @@ NVPI Revamped is licensed under MIT license.
 
 ----------------
 
-Copyright (c) 2016 Orbmu2k
+Copyright (c) 2016 Orbmu2k & 2025 xHybred
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
