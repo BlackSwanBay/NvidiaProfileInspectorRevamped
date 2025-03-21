@@ -1,4 +1,4 @@
-nvidiaProfileInspector is licensed under MIT license.
+NVPI Revamped is licensed under MIT license.
 
 ----------------
 
