@@ -26,7 +26,7 @@ For more information how to use this tool, you can find some very good wikis her
 
 ## Disclaimer
 
-Make sure you use NVIDIA driver 572.83+ for full access to every NVPI setting with no errors on save
+Make sure you use NVIDIA driver 572.83+ for full access to every NVPI setting with no errors. Any version lower may not work properly
 
 ## Screenshots
 
