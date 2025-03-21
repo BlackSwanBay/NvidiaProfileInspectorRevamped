@@ -2,11 +2,11 @@
 The main repo from Orbmu2k isn't updated often & since then their have been many forks adding new content to the program, this fork combines all those into one & also maintains future support for new features, such as adding support for DLSS related toggles.
 
 ## New Features
-- More settings such as RTX HDR and Dynamic Vibrance, overrides for DLSS, image sharpening, Stereocopic viewing options
-- Improved usability of the search/filter field (automatically applies as you type, can be cleared using the "escape" key)
-- Bug fixes
+- More settings (RTX HDR, Dynamic Vibrance, DLSS, Sharpening, Stereocopic, Anti-Aliasing, Latency, etc)
+- Improved usability of the search/filter field (automatically applies as you type, can be cleared with "escape" key)
 - Improved error messaging
 - Faster load times
+- Bug fixes
 
 ## Links
 
@@ -16,6 +16,11 @@ The main repo from Orbmu2k isn't updated often & since then their have been many
 
 * [DLSSEnhancer](https://www.nexusmods.com/site/mods/998)
 
+
+## Disclaimer
+
+- Must use NVIDIA driver 572.83+ for full access to every new NVPI feature
+
 ## How To Use
 
 ![](/nspector/Images/n1-016.png) **NVIDIA Profile Inspector**
@@ -23,10 +28,6 @@ The main repo from Orbmu2k isn't updated often & since then their have been many
 For more information how to use this tool, you can find some very good wikis here:
 * https://wiki.step-project.com/Guide:NVIDIA_Inspector
 * https://www.pcgamingwiki.com/wiki/Nvidia_Profile_Inspector
-
-## Disclaimer
-
-Make sure you use NVIDIA driver 572.83+ for full access to every NVPI setting with no errors. Any version lower may not work properly
 
 ## Screenshots
 
