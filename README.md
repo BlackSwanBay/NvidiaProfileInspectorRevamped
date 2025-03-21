@@ -8,6 +8,10 @@ The main repo from Orbmu2k isn't updated often & since then their have been many
 - Faster load times
 - Bug fixes
 
+## Disclaimer
+
+- Must use NVIDIA driver 572.83+ for full access to every new NVPI feature
+
 ## Links
 
 * [Discord Server](https://discord.gg/dc74er8TJF)
@@ -15,11 +19,6 @@ The main repo from Orbmu2k isn't updated often & since then their have been many
 * [Link Tree](https://linktr.ee/Hybred)
 
 * [DLSSEnhancer](https://www.nexusmods.com/site/mods/998)
-
-
-## Disclaimer
-
-- Must use NVIDIA driver 572.83+ for full access to every new NVPI feature
 
 ## How To Use
 
