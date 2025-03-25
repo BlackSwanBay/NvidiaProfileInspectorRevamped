@@ -12,6 +12,12 @@ The main repo from Orbmu2k isn't updated often & since then their have been many
 
 - Must use NVIDIA driver 572.83+ for full access to every new NVPI feature
 
+## Acryonyms
+
+- SR = Super Resolution *(DLSS Upscaling & DLAA Anti-Alasing)*
+- FG = Frame Generation
+- RR = Ray Reconstruction
+
 ## Links
 
 * [Discord Server](https://discord.gg/dc74er8TJF)
