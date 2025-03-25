@@ -15,8 +15,8 @@ The main repo from Orbmu2k isn't updated often & since then their have been many
 ## Acryonyms
 
 - SR = Super Resolution *(DLSS Upscaling & DLAA Anti-Alasing)*
-- FG = Frame Generation
 - RR = Ray Reconstruction
+- FG = Frame Generation
 
 ## Links
 
