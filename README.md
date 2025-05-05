@@ -20,6 +20,8 @@ The main repo from Orbmu2k isn't updated often & since then their have been many
 
 ## Links
 
+* [NexusMods Page](https://www.nexusmods.com/site/mods/1287)
+
 * [Discord Server](https://discord.gg/dc74er8TJF)
 
 * [Link Tree](https://linktr.ee/Hybred)
