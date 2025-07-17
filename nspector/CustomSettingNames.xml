@@ -4666,6 +4666,7 @@ Sync and Refresh Section
       <UserfriendlyName>Ultra Low Latency - CPL State</UserfriendlyName>
       <HexSettingID>0x0005F543</HexSettingID>
       <GroupName>2 - Sync and Refresh</GroupName>
+      <OverrideDefault>0x0000002</OverrideDefault>
       <MinRequiredDriverVersion>430.00</MinRequiredDriverVersion>
       <Description>This setting just keeps track of ULL setting for the nvidia control panel. No need to change it.</Description>
       <SettingValues>
@@ -4688,6 +4689,7 @@ Sync and Refresh Section
       <UserfriendlyName>Ultra Low Latency - Enabled</UserfriendlyName>
       <HexSettingID>0x10835000</HexSettingID>
       <GroupName>2 - Sync and Refresh</GroupName>
+      <OverrideDefault>0x00000001</OverrideDefault>
       <MinRequiredDriverVersion>430.00</MinRequiredDriverVersion>
       <SettingValues>
         <CustomSettingValue>
@@ -5032,6 +5034,7 @@ Anti-Aliasing Section
       <HexSettingID>0x1034CB89</HexSettingID>
       <MinRequiredDriverVersion>300.00</MinRequiredDriverVersion>
       <GroupName>0.4 - Anti-Aliasing</GroupName>
+      <OverrideDefault>0x0000001</OverrideDefault>
       <SettingValues>
         <CustomSettingValue>
           <UserfriendlyName>Disallowed</UserfriendlyName>
@@ -8496,6 +8499,7 @@ DLSS Overrides Section
   <UserfriendlyName>1 - SR: Latest DLL</UserfriendlyName>
   <HexSettingID>0x10E41E01</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
+  <OverrideDefault>0x00000001</OverrideDefault>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
   <SettingValues>
     <CustomSettingValue>
@@ -8513,6 +8517,7 @@ DLSS Overrides Section
 <CustomSetting>
   <UserfriendlyName>2 - RR: Latest DLL</UserfriendlyName>
   <HexSettingID>0x10E41E02</HexSettingID>
+  <OverrideDefault>0x00000001</OverrideDefault>
   <GroupName>0.2 - DLSS Overrides</GroupName>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
   <SettingValues>
@@ -8532,6 +8537,7 @@ DLSS Overrides Section
   <UserfriendlyName>3 - FG: Latest DLL</UserfriendlyName>
   <HexSettingID>0x10E41E03</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
+  <OverrideDefault>0x00000001</OverrideDefault>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
   <SettingValues>
     <CustomSettingValue>
@@ -8550,6 +8556,7 @@ DLSS Overrides Section
 		<UserfriendlyName>1 - SR: Preset</UserfriendlyName>
 		<HexSettingID>0x10E41DF3</HexSettingID>
 		<GroupName>0.2 - DLSS Overrides</GroupName>
+		<OverrideDefault>0x00FFFFFF</OverrideDefault>
 		<MinRequiredDriverVersion>0</MinRequiredDriverVersion>
 		<SettingValues>
 		  <CustomSettingValue>
@@ -8628,6 +8635,7 @@ DLSS Overrides Section
   <UserfriendlyName>2 - RR: Preset</UserfriendlyName>
   <HexSettingID>0x10E41DF7</HexSettingID>
   <GroupName>0.2 - DLSS Overrides</GroupName>
+  <OverrideDefault>0x00FFFFFF</OverrideDefault>
   <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
   <SettingValues>
 		  <CustomSettingValue>
@@ -8965,7 +8973,7 @@ Performance Section
       <HexValue>0x00000000</HexValue>
     </CustomSettingValue>
     <CustomSettingValue>
-      <UserfriendlyName>On</UserfriendlyName>
+      <UserfriendlyName>On (40 Series+)</UserfriendlyName>
       <HexValue>0x00000001</HexValue>
     </CustomSettingValue>
   </SettingValues>
@@ -8973,7 +8981,7 @@ Performance Section
 </CustomSetting>
 
 <CustomSetting>
-  <UserfriendlyName>SILK Smoothness</UserfriendlyName>
+  <UserfriendlyName>SILK Smoothness: Strength</UserfriendlyName>
   <HexSettingID>0x987251</HexSettingID>
   <GroupName>0.2.3 - Performance</GroupName>
   <OverrideDefault>0x00000000</OverrideDefault>
@@ -8998,6 +9006,25 @@ Performance Section
     <CustomSettingValue>
       <UserfriendlyName>Ultra</UserfriendlyName>
       <HexValue>0x00000004</HexValue>
+    </CustomSettingValue>
+  </SettingValues>
+  <SettingMasks/>
+</CustomSetting>
+
+<CustomSetting>
+  <UserfriendlyName>SILK Smoothness: Mode</UserfriendlyName>
+  <HexSettingID>0x666634</HexSettingID>
+  <GroupName>0.2.3 - Performance</GroupName>
+  <OverrideDefault>0x00000000</OverrideDefault>
+  <MinRequiredDriverVersion>0</MinRequiredDriverVersion>
+  <SettingValues>
+    <CustomSettingValue>
+      <UserfriendlyName>Off</UserfriendlyName>
+      <HexValue>0x00000000</HexValue>
+    </CustomSettingValue>
+    <CustomSettingValue>
+      <UserfriendlyName>On</UserfriendlyName>
+      <HexValue>0x00000001</HexValue>
     </CustomSettingValue>
   </SettingValues>
   <SettingMasks/>
