@@ -1,7 +1,7 @@
 ## Why this fork over other versions?
 The original repo for NVIDIA Profile Inspector from Orbmu2k has had many forks over the years, adding various QoL & performance improvements to it. This fork combines all the community made improvements from over the years into one 'ultimate' version of the app to modernize it.
 
-This version of the tool is also the most active, being updated more often by adding support for the latest features first.
+This version of the tool is also the most active, being updated more often & by being the first to support the latest features.
 
 ## New Features
 - More settings (RTX HDR, Dynamic Vibrance, DLSS, Sharpening, Stereocopic, Anti-Aliasing, Latency, etc)
