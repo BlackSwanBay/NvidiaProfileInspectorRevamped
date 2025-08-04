@@ -1,49 +1,54 @@
-## Why this fork over other versions?
-The original repo for NVIDIA Profile Inspector from Orbmu2k has had many forks over the years, adding various QoL & performance improvements to it. This fork combines all the community made improvements from over the years into one 'ultimate' version of the app to modernize it.
+## What is the purpose of this fork?
 
-This version of the tool is also the most active, being updated more often & by being the first to support the latest features.
+This fork focuses on a few things
 
-## New Features
-- More settings (RTX HDR, Dynamic Vibrance, DLSS, Sharpening, Stereocopic, Anti-Aliasing, Latency, etc)
-- Improved usability of the search/filter field (automatically applies as you type, can be cleared with "escape" key)
+1 - The inclusion of more quality of life options to help modernize the app
+
+2 - Documenting & naming unknown & unnamed settings, so end users can better see what they're changing
+
+3 - Organizing settings in ways that make more sense so they're easier to find and apply (e,g, when a list of options is given, lay out the options from smallest to largest, recategorizing where settings go, etc)
+
+4 - Be the first to add support &/or document new features, along with being overall the most user friendly way to adjust NVIDIA settings compared to other versions of NVPI
+
+## Why does it exist?
+
+I made it because the original version of NVPI was abandoned and missing so many features, and the AIO version fork of NVPI was in a similar position as well, which was an improvement over base NVPI already. My goal was to take over and maintain the improved AIO fork of NVPI, and provide future support to it so it can be maintained and working. Now NVPI is being updated once again since this was created - however, we've gone in two seperate directions with the tools so things have become very different. As a result, I will still continue to maintain NVPI Revamped
+
+## Other New Things
+
+Other than the stated things above, here's some additional changes the tool makes over the original
+
+- Exposed several settings that were otherwise not visible without a CustomSettingNames.xml file
+- Improved usability of the search/filter field, e.g. it automatically applies as you type, can be cleared using the "escape" key, etc
+- Code formatting improvements and bug fixes
 - Improved error messaging
-- Faster load times
-- Bug fixes
+- Improved performance (faster load, etc)
 
-## Disclaimer
-
-- Must use NVIDIA driver 572.83+ for full access to every new NVPI feature
-
-## Acryonyms
-
-- SR = Super Resolution *(DLSS Upscaling & DLAA Anti-Alasing)*
-- RR = Ray Reconstruction
-- FG = Frame Generation
-
-## Links
-
-* [NexusMods Page](https://www.nexusmods.com/site/mods/1287)
-
-* [Discord Server](https://discord.gg/dc74er8TJF)
-
-* [Link Tree](https://linktr.ee/Hybred)
-
-* [DLSSEnhancer](https://www.nexusmods.com/site/mods/998)
-
-## How To Use
+## What is NVPI-R?
 
 ![](/nspector/Images/n1-016.png) **NVIDIA Profile Inspector**
 
-For more information how to use this tool, you can find some very good wikis here:
+This tool is used for modifying game profiles inside the internal nvidia driver database.
+All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database.
+You also have access to hidden and undocumented settings, which are not provided by the drivers control panel.
+
+For more information how to use this tool, you can find some useful informative wikis here:
 * https://wiki.step-project.com/Guide:NVIDIA_Inspector
 * https://www.pcgamingwiki.com/wiki/Nvidia_Profile_Inspector
 
-## Screenshots
+**Screenshots**
 
-**Cropped**
+<img width="1144" height="645" alt="Untitled" src="https://github.com/user-attachments/assets/c6798f49-061a-406b-b5b3-bcde607d4563" />
 
-![UntitledV2](https://github.com/user-attachments/assets/89168980-2af4-46f8-9a0f-b609e11c7b91)
+## Socials & Donations
 
-**Uncropped**
+**Socials**
 
-![Untitled](https://github.com/user-attachments/assets/e891eb82-38d2-4d18-ad44-b2f250237ec4)
+[Discord﻿](https://discord.com/invite/dc74er8TJF) - [YouTube﻿](https://www.youtube.com/c/Hybred) - [Twitter/X](https://x.com/TheHybred)
+
+**D﻿onations**
+
+Everything I make is free & always will be, but purchasing hardware, tools & games for testing means I lose money to deliver my
+content. Please donate if you wish to help me out.
+
+[Patreon﻿](https://www.patreon.com/c/Hybred) - [Ko-fi](https://ko-fi.com/hybred)﻿

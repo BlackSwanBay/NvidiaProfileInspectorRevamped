@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -59,13 +59,11 @@ namespace nspector.Common
         {
             var drsPath = GetDrsProgramPath();
 
-            var si = new ProcessStartInfo
-            {
-                UseShellExecute = true,
-                WorkingDirectory = drsPath,
-                Arguments = "-init",
-                FileName = Path.Combine(drsPath, "dbInstaller.exe")
-            };
+            var si = new ProcessStartInfo();
+            si.UseShellExecute = true;
+            si.WorkingDirectory = drsPath;
+            si.Arguments = "-init";
+            si.FileName = Path.Combine(drsPath, "dbInstaller.exe");
             if (!AdminHelper.IsAdmin)
                 si.Verb = "runas";
             var p = Process.Start(si);
@@ -110,7 +108,7 @@ namespace nspector.Common
                     File.WriteAllText(tmpFileName, tmpFileContent);
                 });
 
-                if (!string.IsNullOrEmpty(tmpFileContent))
+                if (tmpFileContent != "")
                 {
                     DrsSession((hSession) =>
                     {
@@ -289,7 +287,7 @@ namespace nspector.Common
                     foreach (var setting in settings)
                     {
                         if (setting.settingId != settingId) continue;
-
+                        
                         if (setting.settingLocation == NVDRS_SETTING_LOCATION.NVDRS_CURRENT_PROFILE_LOCATION)
                         {
                             if (nvw.DRS_DeleteProfileSetting(hSession, hProfile, setting.settingId) == NvAPI_Status.NVAPI_OK)
@@ -307,9 +305,7 @@ namespace nspector.Common
             removeFromModified = tmpRemoveFromModified;
         }
 
-#pragma warning disable IDE0060 // Remove unused parameter
         public uint GetDwordValueFromProfile(string profileName, uint settingId, bool returnDefaultValue = false, bool forceDedicatedScope = false)
-#pragma warning restore IDE0060 // Remove unused parameter
         {
             return DrsSession((hSession) =>
             {
@@ -376,11 +372,15 @@ namespace nspector.Common
             var settingMeta = meta.GetSettingMeta(setting.settingId);
             //settingMeta.SettingType = setting.settingType;
 
-            settingMeta.DwordValues ??= [];
+            if (settingMeta.DwordValues == null)
+                settingMeta.DwordValues = new List<SettingValue<uint>>();
 
-            settingMeta.StringValues ??= [];
 
-            settingMeta.BinaryValues ??= [];
+            if (settingMeta.StringValues == null)
+                settingMeta.StringValues = new List<SettingValue<string>>();
+
+            if (settingMeta.BinaryValues == null)
+                settingMeta.BinaryValues = new List<SettingValue<byte[]>>();
 
 
             var settingState = SettingState.NotAssiged;
@@ -520,7 +520,7 @@ namespace nspector.Common
 
             });
 
-            return [.. result.OrderBy(x => x.SettingText).ThenBy(x => x.GroupName)];
+            return result.OrderBy(x => x.SettingText).ThenBy(x => x.GroupName).ToList();
         }
 
         public void AddApplication(string profileName, string applicationName)
